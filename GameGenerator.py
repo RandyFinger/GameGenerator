@@ -6,14 +6,6 @@ import random
 # Read csv into dataframe
 df = pd.read_csv('GameIdeas.csv')
 
-''' Get actual column count ignoring nan values to make code modular
-envCount = 0
-goalCount = 0
-genreCount = 0
-rulesCount = 0
-featuresCount = 0
-'''
-
 # Make random selection
 environment = random.randint(0, 15)
 goal = random.randint(0, 9)
