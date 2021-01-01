@@ -3,9 +3,19 @@
 import pandas as pd
 import random
 
-# Read csv
-file = pd.read_csv('GameIdeas.csv')
-print(file)
+# Read csv into dataframe
+df = pd.read_csv('GameIdeas.csv')
+
+# Make random selection
+environment = random.randint(1, len(df["Environment"]))
+goal = random.randint(1, len(df["Goal"]))
+genre = random.randint(1, len(df["Genre"]))
+rules = random.randint(1, len(df["Rules"]))
+features = random.randint(1, len(df["Extra Features"]))
 
 # Print results
-# Print column name: print random selection from each column
+# print("Environment: " + df["Environment"].)
+# print("Goal: ")
+# print("Genre: ")
+# print("Rules: ")
+# print("Extra Features: ")    
