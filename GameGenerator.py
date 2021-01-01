@@ -15,11 +15,11 @@ featuresCount = 0
 '''
 
 # Make random selection
-environment = random.randint(0, 17)
-goal = random.randint(0, 11)
-genre = random.randint(0, 10)
-rules = random.randint(0, 9)
-features = random.randint(0, 6)
+environment = random.randint(0, 15)
+goal = random.randint(0, 9)
+genre = random.randint(0, 8)
+rules = random.randint(0, 7)
+features = random.randint(0, 4)
 
 # Print results
 print("Environment: " + str(df.iat[environment,0]))
